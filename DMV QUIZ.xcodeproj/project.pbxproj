@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9578868B5E74F5A69F6248CB /* Pods_DMV_QUIZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8CB189613ED247EB9AB7C51 /* Pods_DMV_QUIZ.framework */; };
+		CA3303A223A52EC100E9AE0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3303A123A52EC100E9AE0B /* AppDelegate.swift */; };
+		CA3303A423A52EC100E9AE0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3303A323A52EC100E9AE0B /* SceneDelegate.swift */; };
+		CA3303A623A52EC100E9AE0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3303A523A52EC100E9AE0B /* ViewController.swift */; };
+		CA3303A923A52EC100E9AE0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3303A723A52EC100E9AE0B /* Main.storyboard */; };
+		CA3303AB23A52EC500E9AE0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3303AA23A52EC500E9AE0B /* Assets.xcassets */; };
+		CA3303AE23A52EC500E9AE0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3303AC23A52EC500E9AE0B /* LaunchScreen.storyboard */; };
+		CA3303B923A531A100E9AE0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA3303B823A531A100E9AE0B /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		135BAF98AA28D20BDCACAF29 /* Pods-DMV QUIZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMV QUIZ.release.xcconfig"; path = "Target Support Files/Pods-DMV QUIZ/Pods-DMV QUIZ.release.xcconfig"; sourceTree = "<group>"; };
+		A8CB189613ED247EB9AB7C51 /* Pods_DMV_QUIZ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMV_QUIZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA33039E23A52EC100E9AE0B /* DMV QUIZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DMV QUIZ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3303A123A52EC100E9AE0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA3303A323A52EC100E9AE0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA3303A523A52EC100E9AE0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA3303A823A52EC100E9AE0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA3303AA23A52EC500E9AE0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA3303AD23A52EC500E9AE0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA3303AF23A52EC500E9AE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3303B823A531A100E9AE0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CED273538C247DA35F6EC823 /* Pods-DMV QUIZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMV QUIZ.debug.xcconfig"; path = "Target Support Files/Pods-DMV QUIZ/Pods-DMV QUIZ.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA33039B23A52EC100E9AE0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9578868B5E74F5A69F6248CB /* Pods_DMV_QUIZ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADC4B6C09F5B925FD621C141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8CB189613ED247EB9AB7C51 /* Pods_DMV_QUIZ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA33039523A52EC100E9AE0B = {
+			isa = PBXGroup;
+			children = (
+				CA3303A023A52EC100E9AE0B /* DMV QUIZ */,
+				CA33039F23A52EC100E9AE0B /* Products */,
+				D7BD3A487136B3A6E3B6EB75 /* Pods */,
+				ADC4B6C09F5B925FD621C141 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA33039F23A52EC100E9AE0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA33039E23A52EC100E9AE0B /* DMV QUIZ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA3303A023A52EC100E9AE0B /* DMV QUIZ */ = {
+			isa = PBXGroup;
+			children = (
+				CA3303B623A52F8C00E9AE0B /* controller */,
+				CA3303B523A52EF200E9AE0B /* View */,
+				CA3303B723A52F9E00E9AE0B /* Supporting files */,
+				CA3303AF23A52EC500E9AE0B /* Info.plist */,
+				CA3303B823A531A100E9AE0B /* GoogleService-Info.plist */,
+			);
+			path = "DMV QUIZ";
+			sourceTree = "<group>";
+		};
+		CA3303B523A52EF200E9AE0B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA3303AC23A52EC500E9AE0B /* LaunchScreen.storyboard */,
+				CA3303A723A52EC100E9AE0B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA3303B623A52F8C00E9AE0B /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA3303A523A52EC100E9AE0B /* ViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		CA3303B723A52F9E00E9AE0B /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				CA3303A123A52EC100E9AE0B /* AppDelegate.swift */,
+				CA3303A323A52EC100E9AE0B /* SceneDelegate.swift */,
+				CA3303AA23A52EC500E9AE0B /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		D7BD3A487136B3A6E3B6EB75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CED273538C247DA35F6EC823 /* Pods-DMV QUIZ.debug.xcconfig */,
+				135BAF98AA28D20BDCACAF29 /* Pods-DMV QUIZ.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA33039D23A52EC100E9AE0B /* DMV QUIZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3303B223A52EC500E9AE0B /* Build configuration list for PBXNativeTarget "DMV QUIZ" */;
+			buildPhases = (
+				B4B1951EEA90F93BD333F0EF /* [CP] Check Pods Manifest.lock */,
+				CA33039A23A52EC100E9AE0B /* Sources */,
+				CA33039B23A52EC100E9AE0B /* Frameworks */,
+				CA33039C23A52EC100E9AE0B /* Resources */,
+				49B92C80A287AF345B4AD2A6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DMV QUIZ";
+			productName = "DMV QUIZ";
+			productReference = CA33039E23A52EC100E9AE0B /* DMV QUIZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA33039623A52EC100E9AE0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Nauman Bajwa";
+				TargetAttributes = {
+					CA33039D23A52EC100E9AE0B = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CA33039923A52EC100E9AE0B /* Build configuration list for PBXProject "DMV QUIZ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA33039523A52EC100E9AE0B;
+			productRefGroup = CA33039F23A52EC100E9AE0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA33039D23A52EC100E9AE0B /* DMV QUIZ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA33039C23A52EC100E9AE0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3303AE23A52EC500E9AE0B /* LaunchScreen.storyboard in Resources */,
+				CA3303B923A531A100E9AE0B /* GoogleService-Info.plist in Resources */,
+				CA3303AB23A52EC500E9AE0B /* Assets.xcassets in Resources */,
+				CA3303A923A52EC100E9AE0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49B92C80A287AF345B4AD2A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DMV QUIZ/Pods-DMV QUIZ-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DMV QUIZ/Pods-DMV QUIZ-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DMV QUIZ/Pods-DMV QUIZ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B1951EEA90F93BD333F0EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DMV QUIZ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA33039A23A52EC100E9AE0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3303A623A52EC100E9AE0B /* ViewController.swift in Sources */,
+				CA3303A223A52EC100E9AE0B /* AppDelegate.swift in Sources */,
+				CA3303A423A52EC100E9AE0B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA3303A723A52EC100E9AE0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3303A823A52EC100E9AE0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA3303AC23A52EC500E9AE0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3303AD23A52EC500E9AE0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA3303B023A52EC500E9AE0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA3303B123A52EC500E9AE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA3303B323A52EC500E9AE0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED273538C247DA35F6EC823 /* Pods-DMV QUIZ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 626XQPR972;
+				INFOPLIST_FILE = "DMV QUIZ/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "drnauman2016-gmail.com.DMV-QUIZ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA3303B423A52EC500E9AE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 135BAF98AA28D20BDCACAF29 /* Pods-DMV QUIZ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 626XQPR972;
+				INFOPLIST_FILE = "DMV QUIZ/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "drnauman2016-gmail.com.DMV-QUIZ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA33039923A52EC100E9AE0B /* Build configuration list for PBXProject "DMV QUIZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3303B023A52EC500E9AE0B /* Debug */,
+				CA3303B123A52EC500E9AE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3303B223A52EC500E9AE0B /* Build configuration list for PBXNativeTarget "DMV QUIZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3303B323A52EC500E9AE0B /* Debug */,
+				CA3303B423A52EC500E9AE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA33039623A52EC100E9AE0B /* Project object */;
+}
