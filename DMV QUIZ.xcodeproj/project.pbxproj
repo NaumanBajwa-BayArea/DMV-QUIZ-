@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		CA3303AB23A52EC500E9AE0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3303AA23A52EC500E9AE0B /* Assets.xcassets */; };
 		CA3303AE23A52EC500E9AE0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3303AC23A52EC500E9AE0B /* LaunchScreen.storyboard */; };
 		CA3303B923A531A100E9AE0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA3303B823A531A100E9AE0B /* GoogleService-Info.plist */; };
+		CAEB8C8923A5A31C007B8A56 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB8C8823A5A31C007B8A56 /* Question.swift */; };
+		CAEB8C8B23A5A379007B8A56 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB8C8A23A5A379007B8A56 /* QuizModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		CA3303AD23A52EC500E9AE0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA3303AF23A52EC500E9AE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA3303B823A531A100E9AE0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CAEB8C8823A5A31C007B8A56 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CAEB8C8A23A5A379007B8A56 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
 		CED273538C247DA35F6EC823 /* Pods-DMV QUIZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMV QUIZ.debug.xcconfig"; path = "Target Support Files/Pods-DMV QUIZ/Pods-DMV QUIZ.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,8 +77,9 @@
 		CA3303A023A52EC100E9AE0B /* DMV QUIZ */ = {
 			isa = PBXGroup;
 			children = (
-				CA3303B623A52F8C00E9AE0B /* controller */,
+				CAEB8C8723A5A2FE007B8A56 /* Model */,
 				CA3303B523A52EF200E9AE0B /* View */,
+				CA3303B623A52F8C00E9AE0B /* controller */,
 				CA3303B723A52F9E00E9AE0B /* Supporting files */,
 				CA3303AF23A52EC500E9AE0B /* Info.plist */,
 				CA3303B823A531A100E9AE0B /* GoogleService-Info.plist */,
@@ -109,13 +114,21 @@
 			path = "Supporting files";
 			sourceTree = "<group>";
 		};
+		CAEB8C8723A5A2FE007B8A56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAEB8C8823A5A31C007B8A56 /* Question.swift */,
+				CAEB8C8A23A5A379007B8A56 /* QuizModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D7BD3A487136B3A6E3B6EB75 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				CED273538C247DA35F6EC823 /* Pods-DMV QUIZ.debug.xcconfig */,
 				135BAF98AA28D20BDCACAF29 /* Pods-DMV QUIZ.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -236,8 +249,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA3303A623A52EC100E9AE0B /* ViewController.swift in Sources */,
+				CAEB8C8923A5A31C007B8A56 /* Question.swift in Sources */,
 				CA3303A223A52EC100E9AE0B /* AppDelegate.swift in Sources */,
 				CA3303A423A52EC100E9AE0B /* SceneDelegate.swift in Sources */,
+				CAEB8C8B23A5A379007B8A56 /* QuizModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
